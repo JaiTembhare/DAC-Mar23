@@ -1,0 +1,14 @@
+class pattern18{
+	public static void main(String args[]){
+		int a=5;
+		for(int i=a;i>=1;i--){
+			for(int k=1;k<=i;k++){
+				System.out.print(" ");
+			}
+			for(int j=i;j<=5;j++){
+					System.out.print(j+" ");
+				}
+			System.out.println();
+		}
+	}
+}
